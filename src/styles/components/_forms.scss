@@ -1,0 +1,9 @@
+input{
+  padding: 0.675rem !important;
+  border-radius: 7px !important;
+
+  &:focus{
+    box-shadow: none !important;
+    outline: none !important;
+  }
+}

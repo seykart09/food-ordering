@@ -1,0 +1,35 @@
+nav{
+    // height: 110px;
+    background-color: #E8694D !important;
+    font-weight: 400;
+
+    .navbar-search{
+        width: 400px;
+        height: 55px;
+        span{
+            border-top-left-radius: 160px;
+            border-bottom-left-radius: 160px;
+            background-color: white;
+            border-right: 0;
+            padding-left: 1.5rem;
+        }
+    
+        input{
+            border-top-right-radius: 160px;
+            border-bottom-right-radius: 160px;
+            border-left: 0;
+        }
+        
+        @media (max-width: 576px) {
+            width: 230px;
+          }
+    }
+
+    .nav-link{
+        color: black;
+
+        &.active{
+            color: #EB8105 !important;
+        }
+    }
+}
