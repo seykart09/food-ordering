@@ -1,9 +1,25 @@
 input{
   padding: 0.675rem !important;
-  border-radius: 7px !important;
+  border-radius: 10px !important;
 
   &:focus{
     box-shadow: none !important;
     outline: none !important;
+  }
+}
+.input-group{
+  .input-group-text{
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+  }
+  input{
+    padding: 0.675rem !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+  
+    &:focus{
+      box-shadow: none !important;
+      outline: none !important;
+    }
   }
 }

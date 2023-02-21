@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <HomeNav />
-      <div className="body pt-3" id="scroll">
+      <div className="body pt-3">
         <Food></Food>
       </div>
       <AppBar />
